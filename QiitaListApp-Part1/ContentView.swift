@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var articleListData = ArticleData()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List {
+            ForEach(articleListData.articleList) { element in
+                HStack {
+                    Text(element.title)
+                    Spacer()
+                    Text(element.createdAt)
+                }
+            }
         }
-        .padding()
+        .onAppear(perform: articleListData.searchArticle)
     }
 }
 

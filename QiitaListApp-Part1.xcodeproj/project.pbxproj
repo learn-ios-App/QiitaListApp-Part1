@@ -11,6 +11,8 @@
 		8BF0012629B602BD007CB57B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0012529B602BD007CB57B /* ContentView.swift */; };
 		8BF0012829B602BE007CB57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF0012729B602BE007CB57B /* Assets.xcassets */; };
 		8BF0012B29B602BE007CB57B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF0012A29B602BE007CB57B /* Preview Assets.xcassets */; };
+		8BF0013229B602ED007CB57B /* QiitaArticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0013129B602ED007CB57B /* QiitaArticleData.swift */; };
+		8BF0013429B60596007CB57B /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF0013329B60596007CB57B /* ArticleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8BF0012529B602BD007CB57B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BF0012729B602BE007CB57B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF0012A29B602BE007CB57B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BF0013129B602ED007CB57B /* QiitaArticleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaArticleData.swift; sourceTree = "<group>"; };
+		8BF0013329B60596007CB57B /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				8BF0012329B602BD007CB57B /* QiitaListApp_Part1App.swift */,
 				8BF0012529B602BD007CB57B /* ContentView.swift */,
+				8BF0013129B602ED007CB57B /* QiitaArticleData.swift */,
+				8BF0013329B60596007CB57B /* ArticleModel.swift */,
 				8BF0012729B602BE007CB57B /* Assets.xcassets */,
 				8BF0012929B602BE007CB57B /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF0013229B602ED007CB57B /* QiitaArticleData.swift in Sources */,
 				8BF0012629B602BD007CB57B /* ContentView.swift in Sources */,
+				8BF0013429B60596007CB57B /* ArticleModel.swift in Sources */,
 				8BF0012429B602BD007CB57B /* QiitaListApp_Part1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
